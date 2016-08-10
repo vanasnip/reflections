@@ -1,15 +1,15 @@
 
 
-the command itself is diff -u file01 file02, 
+the command itself is diff -u file01 file02,
 what the -u for?
 
 How did viewing a diff between two versions of a file help you see the bug that
 was introduced?
 
-    #1 Marking the two files with either a + or a - 
+    #1 Marking the two files with either a + or a -
 	to show content is from which file.
 
-	#2 Only showing the differences made it simple 
+	#2 Only showing the differences made it simple
 	to filter past the changes i would want to keep
 	and those that i want to return to the original
 	state.
@@ -38,7 +38,7 @@ files in one commit, while others, like Google Docs, treat each file separately?
 
 How can you use the commands git log and git diff to view the history of files?
 
-    use log to see all the commits and 
+    use log to see all the commits and
     use diff to compare two commits to see the differences.
 
 How might using version control make you more confident to make changes that
@@ -49,3 +49,4 @@ could break something?
 Now that you have your workspace set up, what do you want to try using Git for?
 
     I want to use it for web development, application development
+    boyakasha
