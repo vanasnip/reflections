@@ -26,6 +26,8 @@ organized? How would branches help?
   navigate when exploring multiple versions of a project
 
 How do the diagrams help you visualize the branch structure?
+  diagrams help visualisation of the reachability of commits.
+  the also highlight the parent of each commit.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
