@@ -19,6 +19,11 @@ change?
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+  When changing direction in the project and simultaneously
+  preserving a working version of the project in its
+  current state, experimentations and testing new features
+  Branches help by creating a context that is simple to
+  navigate when exploring multiple versions of a project
 
 How do the diagrams help you visualize the branch structure?
 
