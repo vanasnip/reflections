@@ -2,20 +2,29 @@ What happens when you initialize a repository? Why do you need to do it?
 
   Git creates a .git file and the terminal highlights
   the branch as master.
+  ++++++++++++++++++++++++++++++++++++++++++++
+  Without a repository, git cannot do anything.
+  Git works only on git repositories.
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
-  different from the working directory in that WD has
-  all the files and SA can be selective
+  different from the working directory in that Working Directory has
+  all the files and Staging Area can be selective
   different from the repository in that REPO can have more or less
-  than what is in the staging area.
+  than what is in the staging area.??? note happey with last statement
+  ++++++++++++++++++++++++++++++++++++++++++++
+  The staging area is a monitored area by git.
+  It is not required to contain all files from the
+  working directory. The files are not yet in the repository
+  so you can still add/remove files from the
+  staging area before making a commit.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
 
   it allows for intermitent assimilation of what represents
   a commit, once the required elements are together then thats
-  thatm one can commit
+  what one can commit
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
@@ -24,6 +33,8 @@ organized? How would branches help?
   current state, experimentations and testing new features
   Branches help by creating a context that is simple to
   navigate when exploring multiple versions of a project
+  +++++++++++++++++++++++++++++++++++++++++++++
+  trying out new features, large code refactoring etc.
 
 How do the diagrams help you visualize the branch structure?
   diagrams help visualisation of the reachability of commits.
